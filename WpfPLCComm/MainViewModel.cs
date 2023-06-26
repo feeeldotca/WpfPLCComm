@@ -18,7 +18,8 @@ namespace WpfPLCComm
 
         Modbus.Device.ModbusIpMaster master;
         private ushort _value;
-
+        
+        // provide value source for reading temprature and data binding to show the value
         public ushort Value
         {
             get { return _value; }
@@ -60,7 +61,7 @@ namespace WpfPLCComm
         }
 
         private ushort  _input;
-
+        // provide write value source for RPM and data binding
         public ushort  Input
         {
             get { return _input; }
