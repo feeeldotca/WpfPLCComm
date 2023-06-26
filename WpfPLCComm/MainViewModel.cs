@@ -54,7 +54,8 @@ namespace WpfPLCComm
             // Logic for Write to register
             BtnCommand = new CommandBase()
             {
-                DoExecute = new Action<object>(DoBtnCommand)
+                //DoExecute = new Action<object>(DoBtnCommand)
+                DoExecute = DoBtnCommand
             };            
         }
 
