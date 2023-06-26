@@ -26,5 +26,10 @@ namespace WpfPLCComm
             // for data binding purperse
             this.DataContext = new MainViewModel();
         }
+
+        private void XClose(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

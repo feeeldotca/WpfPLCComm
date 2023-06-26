@@ -13,6 +13,7 @@
             <TextBox Text="RPM" />
             <TextBox x:Name="txtBox2" Text="{Binding Input}" />
             <Button Content="Write RPM" Command="{Binding BtnCommand}"/>
+            <Button Content="X" Click="XClose" Width="21" Height="21" Margin="630, -270,0, 0" />
         </StackPanel>
     </Grid>
 </Window>
